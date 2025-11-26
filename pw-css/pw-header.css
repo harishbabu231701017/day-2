@@ -1,0 +1,32 @@
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+
+}
+.logo {
+    margin: 10px 120px 10px 10px;
+}
+.header-options {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header-options p {
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+    font-family: instrument sans;
+    font-weight: 500;
+    font-size: 20px;
+    transition: color 0.4s , background-color 0.4s ;
+}
+.header-options  :hover  {
+    background-color: rgb(242, 195, 199);
+    cursor: pointer;
+    color: rgb(237,88,121);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
